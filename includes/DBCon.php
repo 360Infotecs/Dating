@@ -1,9 +1,17 @@
 <?php
+//Server
+//$sname = "localhost";
+//$username = "Dating360Admin";
+//$password = "360DatingPassword";
+//$dbname = "360dating";
 
+//Localhost
 $sname = "localhost";
-$username = "Dating360Admin";
-$password = "360DatingPassword";
-$dbname = "360dating";
+$username = "root";
+$password = "";
+$dbname = "dating";
+
+
 // Create connection
 $con = new mysqli($sname, $username, $password, $dbname);
 
